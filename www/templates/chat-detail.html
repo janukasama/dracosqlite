@@ -1,0 +1,44 @@
+<!--
+  This template loads for the 'tab.friend-detail' state (app.js)
+  'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+-->
+<ion-view view-title="{{chat.name}}">
+    
+<ion-content class="padding"> 
+    
+    <div><button class = "button ion-close-round button-clear button-stable button-full button-small " ng-click="disconnect()"> DISCONNECT CLIENT</button></div>
+    <div><button class = "button ion-close-round button-clear button-stable button-full button-small " ng-click="read()"> read</button></div>
+    
+    <div class="msg_wrap" scroll-glue>
+    <div class="msg_body" scroll-glue>
+        
+    <div class="msg_a" hidden="true"></div>
+        
+    <div class="msg_b" hidden="true"></div>
+        
+    <div class="msg_push"><p class="enter-msg"></p></div>
+        
+    </div>
+        
+   <!-- <font size="1"><span am-time-ago="message.date"></span></font>-->
+        
+    </div>
+      
+</ion-content>
+    
+    
+<form name="sendMessageForm" ng-submit="sendMessage(sendMessageForm)" novalidate>
+    <ion-footer-bar class="bar-stable item-input-inset message-footer" keyboard-attach>
+        <label class="item-input-wrapper">
+            <input type = "text" id = "user_input" ng-model="input.message" value="" placeholder="Send {{activemq.subscriptionName}} a message..." required minlength="1" maxlength="1500" msd-elastic>
+        </label>
+                  
+        <div class="footer-btn-wrap">
+            <button class="button button-icon icon ion-android-send footer-btn" ng-click ="sendMessage()"></button>
+        </div>
+        
+    </ion-footer-bar>
+</form>
+</ion-view>

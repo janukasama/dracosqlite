@@ -1,0 +1,83 @@
+body {
+  cursor: url('http://ionicframework.com/img/finger.png'), auto;
+}
+
+.scroll-glue{
+       
+        overflow-y: scroll;
+       
+  }
+
+img{
+    /*padding-bottom:-10px;*/
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -15px;
+}
+
+
+.profile-pic-right > img{
+    float:right;
+    bottom: 5px;
+    left: 260px;
+}
+
+.msg_a:before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border: 10px solid;
+    border-color: transparent #158ffe transparent transparent;
+    left: -20px;
+    top: 15px;
+}
+
+.msg_a {
+    position: relative;
+    background: #158ffe;
+    /*padding: 10px;*/
+    min-height: 10px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    border-radius: 5px;
+    max-width: 215px;
+    margin: 5px 5px 5px 20px;
+    margin-left: 45px;
+    padding: 5px 10px;  
+}
+
+
+
+.profile-pic-left > img{
+    float:left;
+    bottom: 5px;
+    right: 225px;
+}
+
+.msg_b:after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border: 10px solid;
+    border-color: transparent transparent transparent #e6e5eb;
+    right: -20px;
+    top: 14px;
+}
+
+.msg_b {
+    background: #e6e5eb;
+    padding: 5px 10px;
+    min-height: 10px;
+    margin-bottom: 5px;
+    position: relative;
+    margin-left: 10px;
+    border-radius: 5px;
+    max-width: 250px;
+    right: -25px;
+    margin: 10px 5px 5px 37px;
+}
+
