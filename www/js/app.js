@@ -23,12 +23,16 @@ angular.module('starter', ['ionic', 'ngCordova', 'starter.controllers', 'starter
   });
 })
 
-.config(function($stateProvider, $urlRouterProvider) {
+.config(function($stateProvider, $urlRouterProvider,$ionicConfigProvider) {
 
   // Ionic uses AngularUI Router which uses the concept of states
   // Learn more here: https://github.com/angular-ui/ui-router
   // Set up the various states which the app can be in.
   // Each state's controller can be found in controllers.js
+    
+    
+ //$ionicConfigProvider.views.maxCache(0);    
+    
   $stateProvider
 
   // setup an abstract state for the tabs directive
@@ -36,6 +40,7 @@ angular.module('starter', ['ionic', 'ngCordova', 'starter.controllers', 'starter
     url: '/tab',
     abstract: true,
     templateUrl: 'templates/tabs.html',
+      cache: false
     //controller: 'ChatsCtrl'
   })
 
@@ -46,7 +51,8 @@ angular.module('starter', ['ionic', 'ngCordova', 'starter.controllers', 'starter
     views: {
       'tab-dash': {
         templateUrl: 'templates/tab-dash.html',
-        controller: 'ChatsCtrl'
+        controller: 'DashCtrl',
+          cache: false
       }
     }
   })
@@ -56,7 +62,8 @@ angular.module('starter', ['ionic', 'ngCordova', 'starter.controllers', 'starter
       views: {
         'tab-chats': {
           templateUrl: 'templates/tab-chats.html',
-          controller: 'ChatsCtrl'
+          controller: 'ChatsCtrl',
+            cache: false
         }
       }
     })
@@ -65,7 +72,8 @@ angular.module('starter', ['ionic', 'ngCordova', 'starter.controllers', 'starter
       views: {
         'tab-chats': {
           templateUrl: 'templates/chat-detail.html',
-          controller: 'ChatsCtrl'
+          controller: 'ChatsCtrl',
+            cache: false
         }
       }
     })
@@ -75,7 +83,8 @@ angular.module('starter', ['ionic', 'ngCordova', 'starter.controllers', 'starter
     views: {
       'tab-account': {
         templateUrl: 'templates/tab-account.html',
-        controller: 'ChatsCtrl'
+        controller: 'DashCtrl',
+          cache: false
       }
     }
   });

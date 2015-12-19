@@ -1,0 +1,5715 @@
+@charset "utf-8";
+
+/* CSS Document - for EAP Movies - Developed By Harsha Nayanajith */
+
+
+
+*{
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	font-size:12px;
+
+	font-style:normal;
+
+	}
+
+a{
+
+	outline:none;
+
+	}
+
+/*Home Page basic Layout*/
+
+.gradient_bg{
+
+	background: url("../images/gradiant_bg.jpg") left 511px repeat-x;
+
+	}
+
+.top_bg{
+
+	/*background: url("../images/top-bg.png");*/
+
+	background-position:center top;
+
+	background-repeat:no-repeat;
+
+	}
+
+.container {
+
+    margin: 0 auto;
+
+    padding-top: 31px;
+
+    width: 960px;
+
+}
+
+.header{
+
+	background: url("../images/header-bg.jpg") no-repeat scroll left top transparent;
+
+	height: 181px;
+
+    position: relative;
+
+    z-index: 9999;
+
+	
+
+	}
+
+#logo{
+
+	height:auto;
+
+	}
+
+#search_wrapper{
+
+	height:100px;
+
+	}
+
+#main_menu{
+
+/*	margin-top:100px;*/
+
+	background-image:url(../images/menu-bg.jpg);
+
+	background-repeat:repeat-x;
+
+	background-position:center bottom;
+
+	}
+
+.slider_wrapper{
+
+	background-color:#090909;
+
+	padding:0px 0px 35px;
+
+	background: url("../images/video-bg.png") no-repeat scroll transparent;
+
+	}
+
+#now_showing{
+
+	}
+
+#main_trailer{
+
+	height:470px;
+
+	background-color:#06F;
+
+	}
+
+.content_wrapper_home{
+
+	margin-top:15px;
+
+	}
+
+.content_wrapper_home #col_left_home{
+
+	height:auto;
+
+/*	background-color:#966;*/
+
+	}
+
+.content_wrapper_home #col_left_home #col_one{
+
+	height:auto;
+
+	}
+
+.content_wrapper_home #col_left_home {
+
+	height:auto;
+
+/*	margin-left:20px;*/
+
+	}
+
+.content_wrapper_home #col_right_home{
+
+	height:auto;
+
+	}
+
+.footer{
+
+	border-top:1px solid #e9e8e8;
+
+	}
+
+#footer_menu{
+
+	height:50px;
+
+	line-height:50px;
+
+	}
+
+#copyrights{
+
+	height:50px;
+
+	color:#979797;
+
+	font-size:12px;
+
+	padding-top:17px;
+
+	text-align:right;
+
+	}
+
+#copyrights a{
+
+	text-decoration:none;
+
+	color:#979797;
+
+	}
+
+#copyrights a:hover{
+
+	text-decoration:underline;
+
+	}
+
+.header .container_24{
+
+	background-color:#000;
+
+	background: url("../images/header-bg.jpg") no-repeat scroll center top transparent;
+
+	}
+
+.logo_wrapper{
+
+	}
+
+/*Inner Page Basic Layout*/
+
+.gradient_bg_inner{
+
+	background: url("../images/gradiant_bg.jpg") repeat-x scroll left 217px transparent;
+
+	}
+
+.top_bg_inner_page{
+
+	background: url("../images/top-bg2.jpg");
+
+	background-position:center top;
+
+	background-repeat:no-repeat;
+
+	}
+
+.content_wrapper_inner {
+
+	padding-bottom:20px;
+
+	}
+
+#inner_page_left_col{
+
+	height:auto;
+
+
+
+	}
+
+#inner_page_right_col{
+
+	height:auto;
+
+	}
+
+/*Main Menu*/
+
+
+
+#main_menu ul.menu li:last-child a span em, #main_menu ul.menu li.item-116 a span em{
+
+    padding-left: 20px;
+
+    padding-right: 23px;
+
+	}
+
+
+
+/*Top Menu*/
+
+.top_menu{
+
+	margin-right: 15px;
+
+    margin-top: 15px;
+
+    text-align: right;
+
+	}
+
+.top_menu ul li{
+
+	display:inline !important;
+
+	
+
+	}
+
+.top_menu ul li a{
+
+	text-decoration:none;
+
+	
+
+	}
+
+.top_menu ul li a span em{
+
+	color:#fffefe;
+
+	font-size:13px;
+
+	padding-left: 10px;
+
+    padding-right: 10px;
+
+	font-family:"Myriad Pro";
+
+	background-image:url(../images/top_menu_line.png);
+
+	background-repeat:no-repeat;
+
+	background-position:right center;
+
+	font-style:normal !important;
+
+	}
+
+.top_menu ul li a span em:hover{
+
+	text-decoration:underline;
+
+	}
+
+.top_menu ul li:last-child a span em{
+
+	background-image:none;
+
+}
+
+.welcome{
+
+/*	margin-right:-95px;*/
+
+	margin-top:5px;
+
+	}
+
+.welcome a{
+
+	text-decoration:none;
+
+	}
+
+.welcome a:hover{
+
+	text-decoration:underline;
+
+	color:#ba57da;
+
+	}
+
+.welcome a em em{
+
+	display:none;
+
+	}
+
+.welcome a{
+
+	color:#ba57da;
+
+	font-family:"Myriad Pro";
+
+	font-size:13px;
+
+	font-style:normal !important;
+
+	}
+
+.welcome a:hover{
+
+	color:#ba57da;
+
+	text-decoration:underline;
+
+	}
+
+/*Footer Menu*/
+
+#footer_menu ul li{
+
+	display:inline;
+
+	padding-left:10px;
+
+	padding-right:10px;
+
+	}
+
+#footer_menu ul li a{
+
+	text-decoration:none;
+
+	color:#979797;
+
+	font-size:12px;
+
+	font-style:normal !important;
+
+	}
+
+#footer_menu ul li a:hover, #footer_menu ul li.active a{
+
+	color:#b822ba;
+
+	text-decoration:underline;
+
+	}
+
+#footer_menu ul li a span em{
+
+	font-style:normal !important;
+
+	}
+
+/*Search Box*/
+
+
+
+.search_box {
+
+	text-align:right;
+
+/*	margin-top:20px;*/
+
+	margin-right:20px;
+
+	}
+
+.search_box .search{
+
+	margin-top:5px;
+
+	}
+
+.search_box input{
+
+	background: none repeat scroll 0 0 #373737;
+
+    border-color: #101010 #888888 #3D3D3D #232323;
+
+    border-style: solid none solid solid;
+
+    border-width: 1px medium 1px 1px;
+
+    color: #888888;
+
+    font-size: 12px;
+
+    padding-bottom: 6px;
+
+    padding-left: 9px;
+
+    padding-top: 7px;
+
+    width: 200px;
+
+	}
+
+.search_box input.button{
+
+    color: #F4F4F4;
+
+	background-color:#802081;
+
+    font-size: 20px;
+
+        padding: 1px 0 2px;
+
+    text-decoration: none;
+
+	width:80px;
+
+	height:30px;
+
+	vertical-align:bottom;
+
+	font-family:"Myriad Pro";
+
+	font-weight:bold;
+
+	cursor:pointer;
+
+}
+
+.search_box .search a{
+
+    background: none repeat scroll 0 0 #691B6A;
+
+    border-color: #802081 #501451 #350F35 #711C72;
+
+    font-size: 16px;
+
+    letter-spacing: -1px;
+
+    text-decoration: none;
+
+}
+
+.search_box input.button:hover{
+
+	color:#999;
+
+	}
+
+.top_menu{
+
+	margin-bottom:0px;
+
+	}
+
+/*Right Module - Home*/
+
+
+
+#col_right_home .custom{
+
+	margin-bottom:15px;
+
+	}
+
+.custom img{
+
+	border:3px solid #e9e8e8;
+
+	}
+
+
+
+/*Up Comming Movies*/
+
+
+
+.up_comming_movies{
+
+/*	margin-bottom:15px;*/
+
+/*	height:250px;*/
+
+	}
+
+
+
+.up_comming_movies h3{
+
+	font-size:31px;
+
+	color:#323232;
+
+	font-weight:bold;
+
+	font-family:"Myriad Pro";
+
+	margin-bottom:10px;
+
+	}
+
+.moduletable_upcomming{
+
+/*	height:250px;*/
+
+
+
+	}
+
+/*Stra Interview*/
+
+.moduletable_star{
+
+	/*border:1px solid #e9e8e8;*/
+
+	}
+
+.moduletable_star .head h3{
+
+	background: url("../images/col-2-head.jpg") no-repeat scroll left top transparent;
+
+    display: block;
+
+    height: 44px;
+
+	padding-left: 18px;
+
+    padding-top: 14px;
+
+	color: #FFFFFF;
+
+    font-size: 24px;
+
+	font-family:"Myriad Pro";
+
+	font-weight:bold;
+
+	}
+
+.newsflash_star {
+
+	padding:0px 12px 5px 12px;
+
+	border:1px solid #e9e8e8;
+
+    
+
+	}
+
+.newsflash_star h1{
+
+	color:#323232;
+
+	font-size:14px;
+
+	font-family:"Myriad Pro";
+
+	font-weight:normal;
+
+	margin-top:15px;
+
+	}
+
+.newsflash_star h2{
+
+	color:#323232;
+
+	font-size:12px;
+
+	font-family:"Myriad Pro";
+
+	font-weight:normal;
+
+	margin-bottom:5px;
+
+	}
+
+.newsflash_star p{
+
+	color:#323232;
+
+	font-size:12px;
+
+/*	font-family:"Myriad Pro";*/
+
+	font-weight:normal;
+
+	}
+
+.newsflash_star .item_wrapper{
+
+	border-bottom:1px solid #e9e8e8;
+
+	padding-bottom:10px;
+
+	padding-top:10px;
+
+	}
+
+.view_all {
+
+	text-align:right;
+
+	padding-top:5px;
+
+	padding-bottom:5px;
+
+	}
+
+.view_all a{
+
+	text-decoration:none;
+
+	color:#323232;
+
+	font-size:13px;
+
+	font-family:"Myriad Pro";
+
+	font-weight:bold;
+
+	}
+
+.view_all a:hover{
+
+	text-decoration:underline;
+
+	}
+
+/*Newsletter Subscription*/
+
+.moduletable_newsletter{
+
+	background-color:#39004b;
+
+	padding:10px;
+
+	margin-top:15px;
+
+	}
+
+form#newsletter_form label{
+
+	font-size:12px;
+
+	font-family:"Myriad Pro";
+
+	font-weight:bold;
+
+	color:#fff;
+
+	}
+
+form#newsletter_form label.error{
+
+	font-weight:normal;
+
+	}
+
+.moduletable_newsletter h3{
+
+	font-size:16px;
+
+	font-family:"Myriad Pro";
+
+	font-weight:normal;
+
+	color:#fff;
+
+	margin-bottom:20px;
+
+	}
+
+.moduletable_newsletter .button_right{
+
+	text-align:right;
+
+	}
+
+.moduletable_newsletter .button_right input.submit_btn{
+
+	background-color:#670286;
+
+	font-size:12px;
+
+	color:#fff;
+
+	font-family:"Myriad Pro";
+
+	border:none;
+
+	margin-top:10px;
+
+	height:28px;
+
+	width:75px;
+
+	font-weight:bold;
+
+	cursor:pointer;
+
+	letter-spacing:1px;
+
+	}
+
+.moduletable_newsletter .button_right input.submit_btn:hover{
+
+	color:#999;
+
+	}
+
+/*Home Page Blog View*/
+
+#col_one{
+
+/*	border:1px solid #e9e8e8;*/
+
+/*	padding-bottom:15px;*/
+
+	}
+
+#col_one .items-row {
+
+/*	margin-bottom:10px;*/
+
+	padding-bottom:15px;
+
+	border-bottom:1px solid #e9e8e8;
+
+	padding-top:15px;
+
+	margin-left:10px;
+
+	margin-right:10px;
+
+	}
+
+#col_one h2{
+
+	margin-bottom:5px;
+
+	}
+
+#col_one h2 a{
+
+	text-decoration:none;
+
+	font-size:16px;
+
+	font-weight:bold;
+
+	color:#323232;
+
+	font-family:"Myriad Pro";
+
+	}
+
+#col_one .article_content{
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	font-size:12px;
+
+	color:#323232;
+
+	text-align:justify;
+
+	margin-bottom:10px;
+
+	padding-right:10px;
+
+	height:60px;
+
+	}
+
+#col_one p.readmore {
+
+	margin-top:15x;
+
+	text-align:right;
+
+	margin-right:10px;
+
+	}
+
+#col_one p.readmore a{
+
+	background-color:#232323;
+
+	padding:4px 10px;
+
+	text-decoration:none;
+
+	font-family:"Myriad Pro";
+
+	font-size:13px;
+
+	color:#fff;	
+
+}
+
+#col_one p.readmore a:hover{
+
+	background-color:#6B1B6D;
+
+	}
+
+#col_one .head{
+
+	background: url("../images/col-1-head.jpg") no-repeat scroll left top transparent;
+
+    display: block;
+
+    height: 58px;
+
+	width:100%;
+
+	}
+
+#col_one .blog{
+
+	border:1px solid #e9e8e8;
+
+/*	padding-top:10px;*/
+
+	border-bottom:none;
+
+	min-height:507px;
+
+	}
+
+#col_one .head h1{
+
+/*	margin-bottom:10px;*/
+
+	padding-left: 18px;
+
+    padding-top: 14px;
+
+	color: #FFFFFF;
+
+    font-size: 24px;
+
+	}
+
+#article_image_thumb img{
+
+
+
+	}
+
+.view_all_com {
+
+	text-align:right;
+
+	border:1px solid #e9e8e8;
+
+	border-top:none;
+
+	padding: 0 15px 39px;
+
+	}
+
+.view_all_com a{
+
+	text-decoration:none;
+
+	font-family:"Myriad Pro";
+
+	font-size:22px;
+
+	color:#323232;
+
+	}
+
+.view_all_com a:hover{
+
+	text-decoration:underline;
+
+	}
+
+/*Breadcrumb*/
+
+.braedcrumbs_wrapper{
+
+	background-color:#fff;
+
+	margin:15px 5px 10px;
+
+	height:32px;
+
+	}
+
+.braedcrumbs_wrapper .breadcrumbs{
+
+	padding:5px;
+
+	margin-left:15px;
+
+	}
+
+.braedcrumbs_wrapper .breadcrumbs a{
+
+	text-decoration:none;
+
+	font-size:16px;
+
+	font-family:"Myriad Pro";
+
+	color:#414141;
+
+	font-weight:bold;
+
+	}
+
+.braedcrumbs_wrapper .breadcrumbs span{
+
+	text-decoration:none;
+
+	font-size:16px;
+
+	font-family:"Myriad Pro";
+
+	color:#4f0068;
+
+	font-weight:bold;
+
+	}
+
+
+
+/*Inner Page*/
+
+#inner_page_left_col{
+
+/*	background-color:#fff;*/
+
+	padding-bottom:15px;
+
+	}
+
+#inner_page_left_col h2{
+
+	background-image:url(../images/inner_pages_header_bg.jpg);
+
+	background-position:center right;
+
+	background-repeat:no-repeat;
+
+	height:48px;
+
+	line-height:48px;
+
+	margin-bottom:15px;
+
+	}
+
+#inner_page_left_col h2 a{
+
+	padding-left: 18px;
+
+	text-decoration:none;
+
+	font-size:26px;
+
+	font-family:"Myriad Pro";
+
+	color:#fff;
+
+	font-weight:normal;
+
+	}
+
+#inner_page_left_col p{
+
+	 padding:0px 15px;
+
+	 font-size:12px;
+
+	 color:#323232;
+
+	 text-align:justify;
+
+	 }
+
+#inner_page_left_col p.counter{
+
+	text-align:center;
+
+	margin-bottom:10px;
+
+	}
+
+.star p img{
+
+	width:560px;
+
+	margin-bottom:10px;
+
+	}
+
+/*Inner Page Right Module*/
+
+
+
+#inner_page_right_col .moduletable img{
+
+	border:3px solid #e1e1e1;
+
+	}
+
+
+
+/*DVD Shop Page*/
+
+.hikashop_products_listing{
+
+	background-color:#fff;
+
+/*	margin-top:15px;*/
+
+border: 1px solid #ECEBEB;
+
+padding-bottom:10px;
+
+	}
+
+#left_col_dvd_shop, #right_col_dvd_shop{
+
+	height:auto;
+
+	}
+
+#right_col_dvd_shop{
+
+	background-color:#fff;
+
+	}
+
+.shop_header h1{
+
+	background-image:url(../images/dvd_shop_header.jpg);
+
+	background-position:center center;
+
+	background-repeat:no-repeat;
+
+	height:48px;
+
+	line-height:48px;
+
+	font-size:26px;
+
+	font-weight:normal;
+
+	color:#fff;
+
+	padding-left:15px;
+
+	font-family:"Myriad Pro";
+
+	}
+
+.hikashop_product_image_thumbnail a img{
+
+/*	height:147px;
+
+	width:124px;*/
+
+	}
+
+.hikashop_products{
+
+	margin-left:20px;
+
+	}
+
+
+
+span.hikashop_product_price_full, span.hikashop_product_name{
+
+	width:124px;
+
+	}
+
+span.hikashop_product_price_full{
+
+	padding-top:10px;
+
+	background-color:#f2f2f2;
+
+	margin-bottom:0px !important;
+
+	padding-bottom:5px;
+
+	}
+
+span.hikashop_product_price_full span.hikashop_product_price{
+
+	font-size:15px;
+
+	color:#323232;
+
+	font-family:"Myriad Pro";
+
+	}
+
+span.hikashop_product_name{
+
+	background-color:#4b0063;
+
+	height:40px;
+
+	padding-top:5px;
+
+	}
+
+span.hikashop_product_name a{
+
+	text-decoration:none;
+
+	color:#fff;
+
+	font-size:13px;
+
+	font-family:"Myriad Pro";
+
+	}
+
+span.hikashop_product_name a:hover{
+
+	text-decoration:underline;
+
+	}
+
+a.hikashop_cart_button{
+
+	margin-top:10px;
+
+	}
+
+.add_to_cart_button{
+
+	margin-top:15px;
+
+	}
+
+
+
+.hikashop_product_stock a.hikashop_cart_button{
+
+	background-color:#ffb31b !important;
+
+	color:#000 !important;
+
+	background-image:none !important;
+
+		color:#000;
+
+	font-size:13px;
+
+	font-weight:bold;
+
+	font-family:"Myriad Pro";
+
+	border:none;
+
+	box-shadow:1px 1px 1px #b3b3b3;
+
+	}
+
+a.hikashop_cart_button:hover{
+
+	outline:none !important;
+
+	background-color:#ffbd4d !important;
+
+	}
+
+.hikashop_checkout_page{
+
+	background-color:#fff;
+
+	border:1px solid #ecebeb;
+
+	}
+
+.hikashop_checkout_page h1{
+
+	background-image:url(../images/checkout_pages_header_bg.jpg);
+
+	background-position:center right;
+
+	background-repeat:no-repeat;
+
+	height:48px;
+
+	line-height:48px;
+
+	margin-bottom:15px;
+
+	padding-left: 18px;
+
+	text-decoration:none;
+
+	font-size:26px;
+
+	font-family:"Myriad Pro";
+
+	color:#fff;
+
+	font-weight:normal;
+
+	}
+
+#hikashop_checkout_login_left_part{
+
+	border:1px solid #ecebeb;
+
+	}
+
+#hikashop_checkout_login_left_part h2, #hikashop_checkout_login_right_part h2{
+
+	background-image:url(../images/login_page_header_bg.jpg);
+
+	background-position:center right;
+
+	background-repeat:no-repeat;
+
+	height:37px;
+
+	line-height:37px;
+
+	margin-bottom:15px;
+
+	text-decoration:none;
+
+	font-size:18px;
+
+	font-family:"Myriad Pro";
+
+	color:#fff;
+
+	font-weight:normal;
+
+	padding-left:15px;
+
+	}
+
+#com-form-login-remember{
+
+	    margin-right: 20px;
+
+    margin-top: 10px;
+
+    text-align: right;
+
+	}
+
+#hikashop_checkout_login_left_part ul{
+
+	text-align:right;
+
+	margin-right:20px;
+
+	padding-bottom:10px;
+
+	}
+
+#hikashop_checkout_login_left_part label, .hikashop_contentpane label{
+
+	font-size:12px;
+
+	color:#323232;
+
+	}
+
+.login{
+
+	margin-left:20px;
+
+	}
+
+.login input{
+
+	height:25px;
+
+	width:110px;
+
+	margin-bottom:5px;
+
+	background-color:#eeeeee;
+
+	border:none;
+
+	}
+
+.login tr td{
+
+	vertical-align:text-top;
+
+	}
+
+.cart_area{
+
+	    margin-bottom: 10px;
+
+    margin-right: 20px;
+
+    margin-top: 15px;
+
+    text-align: right;
+
+	}
+
+#hikashop_checkout_login_left_part ul li a {
+
+	font-size:12px;
+
+	color:#323232;
+
+	}
+
+.cart_area a.hikashop_cart_button{
+
+	background-color:#232323 !important;
+
+	background-image:none !important;
+
+	color:#fff;
+
+	font-size:13px;
+
+	font-family:"Myriad Pro";
+
+	}
+
+#hikashop_checkout_login_right_part{
+
+	border:1px solid #ecebeb;
+
+	}
+
+.hikashop_contentpane {
+
+	margin-left:15px;
+
+	}
+
+.hikashop_contentpane input{
+
+	width:200px;
+
+	height:25px;
+
+	margin-bottom:5px;
+
+	background-color:#eeeeee;
+
+	border:none;
+
+	}
+
+.hikashop_contentpane tr td.key{
+
+	width:130px;
+
+	}
+
+tr.hikashop_registration_address_info_line td{
+
+	padding-top:10px;
+
+	font-size:16px;
+
+	}
+
+.hikashop_contentpane tr td select{
+
+	height:25px;
+
+	background-color:#eeeeee;
+
+	border:none;
+
+	margin-bottom:5px;
+
+	}
+
+.hikashop_contentpane tr td select#address_state, .hikashop_contentpane tr td select#address_country{
+
+	width:250px;
+
+	margin-right:20px;
+
+	} 
+
+tr.hikashop_registration_required_info_line td{
+
+	font-size:12px;
+
+	color:#323232;
+
+	}
+
+.hikashop_field_required{
+
+	color:#F00;
+
+	}
+
+.hikashop_payment_methods{
+
+	margin-left:35px;
+
+	margin-right:38px;
+
+	margin-bottom:15px;
+
+	border:1px solid #ecebeb;
+
+	}
+
+.hikashop_payment_methods h2{
+
+	background-image:url(../images/payment_methods_header_bg.jpg);
+
+	background-position:center right;
+
+	background-repeat:no-repeat;
+
+	height:37px;
+
+	line-height:37px;
+
+	margin-bottom:15px;
+
+	text-decoration:none;
+
+	font-size:18px;
+
+	font-family:"Myriad Pro";
+
+	color:#fff;
+
+	font-weight:normal;
+
+	padding-left:15px;
+
+	}
+
+table.hikashop_payment_methods_table{
+
+	margin-left:20px;
+
+	}
+
+span.hikashop_checkout_payment_name{
+
+	color:#414141;
+
+	font-weight:bold;
+
+	font-size:14px;
+
+	}
+
+.hikashop_checkout_payment_description{
+
+	font-size:12px;
+
+	color:#323232;
+
+	margin-bottom:10px;
+
+	}
+
+.hikashop_checkout_payment_image{
+
+	padding-right:20px;
+
+	}
+
+span.hikashop_checkout_coupon {
+
+	margin-left:35px;
+
+	font-size:12px;
+
+	}
+
+span.hikashop_checkout_coupon input#hikashop_checkout_coupon_input{
+
+	width:230px;
+
+	height:20px;
+
+	}
+
+span.hikashop_checkout_coupon a.hikashop_cart_button{
+
+	    background-color: #232323 !important;
+
+    background-image: none !important;
+
+    color: #FFFFFF;
+
+    font-family: "Myriad Pro";
+
+    font-size: 13px;
+
+	height:20px;}
+
+.poduct_info_wrapper{
+
+	margin-left:35px;
+
+	margin-right:38px;
+
+	margin-top:25px;
+
+	border:1px solid #ecebeb;
+
+	
+
+	}
+
+.poduct_info_wrapper h2{
+
+	background-image:url(../images/payment_methods_header_bg.jpg);
+
+	background-position:center right;
+
+	background-repeat:no-repeat;
+
+	height:37px;
+
+	line-height:37px;
+
+	text-decoration:none;
+
+	font-size:18px;
+
+	font-family:"Myriad Pro";
+
+	color:#fff;
+
+	font-weight:normal;
+
+	padding-left:15px;
+
+	}
+
+.checkout_table{
+
+	font-size:12px;
+
+	}
+
+.checkout_table thead tr th{
+
+	color:#414141;
+
+	font-size:14px;
+
+	text-align:center;
+
+	}
+
+.checkout_table tr td{
+
+	padding:10px;
+
+	}
+
+.checkout_table tr td.hikashop_cart_product_name_value{
+
+	width:175px;
+
+	text-align:center;
+
+	}
+
+.checkout_table tr td.hikashop_cart_product_name_value p a {
+
+	text-decoration:none;
+
+	color:#323232;
+
+	font-size:12px;
+
+	}
+
+.hikashop_cart_product_price_value span.hikashop_product_price_full, td.hikashop_cart_product_total_value span.hikashop_product_price_full{
+
+	background-color:transparent;
+
+	padding-top:0px;
+
+	text-align:center;
+
+	}
+
+.hikashop_cart_product_price_value span.hikashop_product_price_full span.hikashop_product_price{
+
+	font-size:12px;
+
+	text-align:center;
+
+	}
+
+td.hikashop_cart_product_price_value span.hikashop_product_price_full{
+
+	text-align:center !important;
+
+	font-size:12px;
+
+	font-weight:normal;
+
+	}
+
+td.hikashop_cart_product_total_value span.hikashop_product_price_full{
+
+	text-align:center !important;
+
+	}
+
+td.hikashop_cart_product_total_value span.hikashop_product_price_full span.hikashop_product_price{
+
+	font-size:12px;
+
+	font-weight:normal;
+
+	}
+
+td.hikashop_cart_total_value{
+
+	text-align:center;
+
+	}
+
+td.hikashop_cart_total_value span.hikashop_checkout_cart_final_total_title, td.hikashop_cart_total_value span.hikashop_checkout_cart_final_total{
+
+	color:#4f0068;
+
+	font-weight:bold;
+
+	font-size:14px;
+
+	}
+
+span#hikashop_checkout_status {
+
+	display:none !important;
+
+	}
+
+.checkout_table tr td{
+
+	border-right:1px solid #e9e8e8 !important;
+
+	}
+
+.checkout_table tfoot tr td, .checkout_table tr td:last-child{
+
+	border:none !important;
+
+	}
+
+.hikashop_checkout_billing_address h2{
+
+	font-size:14px;
+
+	color:#414141;
+
+	margin-left:35px;
+
+	}
+
+.hikashop_checkout_billing_address table{
+
+	margin-left:35px;
+
+	}
+
+
+
+.hikashop_checkout_billing_address table tr td{
+
+	vertical-align:middle;
+
+	font-size:12px;
+
+	color:#414141;
+
+	}
+
+.hikashop_checkout_billing_address table tr td input.hikashop_checkout_billing_address_radio{
+
+	margin-right:20px;
+
+	}
+
+span.hikashop_checkout_billing_address_info{
+
+	margin-right:50px;
+
+	}
+
+.checkout_address_new {
+
+	float:right;
+
+	margin-bottom:15px;
+
+	margin-right:38px;
+
+	}
+
+.checkout_address_new a.hikashop_cart_button{
+
+	background-color: #232323 !important;
+
+    background-image: none !important;
+
+    color: #FFFFFF;
+
+    font-family: "Myriad Pro";
+
+    font-size: 13px;
+
+	}
+
+.next_button a#hikashop_checkout_next_button{
+
+	background-color: #232323 !important;
+
+    background-image: none !important;
+
+    color: #FFFFFF;
+
+    font-family: "Myriad Pro";
+
+    font-size: 13px;
+
+	margin-right:38px;
+
+	margin-bottom:10px;
+
+	}
+
+div#hikashop_product_left_part div{
+
+	text-align:left !important;
+
+	}
+
+
+
+#right_col_dvd_shop #hikashop_main_image_thumb_div a img#hikashop_main_image{
+
+	border:3px solid #e1e1e1;
+
+	}
+
+#hikashop_product_top_part h1 span#hikashop_product_name_main{
+
+	font-size:24px;
+
+	font-family: "Myriad Pro";
+
+	color:#323232;
+
+	}
+
+.hikashop_product_price_main_detail_page span.hikashop_product_price_full{
+
+	background-color:transparent;
+
+	text-align:left;
+
+	}
+
+.hikashop_product_price_main_detail_page span.hikashop_product_price_full span.hikashop_product_price{
+
+		font-size:12px;
+
+	font-family: "Myriad Pro";
+
+	color:#323232;
+
+}
+
+#right_col_dvd_shop #hikashop_product_quantity_main .hikashop_product_stock input.hikashop_product_quantity_field{
+
+	width:45px;
+
+	border:1px solid #e9e8e8;
+
+	margin-right:10px;
+
+	height:30px;	
+
+	}
+
+#right_col_dvd_shop #hikashop_product_quantity_main .hikashop_product_stock a#hikashop_product_quantity_field_change_plus, #right_col_dvd_shop #hikashop_product_quantity_main .hikashop_product_stock a#hikashop_product_quantity_field_change_minus{
+
+	padding:11px;
+
+	color:#232323;
+
+	}
+
+#right_col_dvd_shop #hikashop_product_quantity_main .hikashop_product_stock a#hikashop_product_quantity_field_change_minus{
+
+	padding:12px;
+
+	background-image:url(../images/quentity_box_down.png);
+
+	background-repeat:no-repeat;
+
+	background-position:7px 7px;
+
+	padding-top:3px;
+
+	color:#fff;
+
+	text-decoration:none;
+
+	}
+
+#right_col_dvd_shop #hikashop_product_quantity_main .hikashop_product_stock a#hikashop_product_quantity_field_change_plus{
+
+		background-image:url(../images/quentity_box_up.png);
+
+	background-repeat:no-repeat;
+
+	background-position:7px 14px;
+
+	color:#fff;
+
+	text-decoration:none;
+
+	
+
+	}
+
+#right_col_dvd_shop #hikashop_product_quantity_main .hikashop_product_stock a.hikashop_cart_button{
+
+	margin-left:8px;
+
+	margin-top:0px;
+
+	}
+
+#hikashop_product_quantity_main .hikashop_product_stock{
+
+	padding:10px;
+
+	background-color:#f7f7f7;
+
+	border:2px solid #e9e8e8;
+
+	width:180px;
+
+	}
+
+.hikashop_product_bottom_part_detail_page{
+
+	margin-top:25px;
+
+}
+
+.hikashop_product_description_main strong{
+
+	color:#323232;
+
+	font-family: "Myriad Pro";
+
+	font-size:14px;
+
+	}
+
+.hikashop_product_description_main p{
+
+	font-size:12px;
+
+	color:#323232;
+
+	margin-left:15px;
+
+	}
+
+.hikashop_product_page .custom_header h1{
+
+	 background-image: url("../images/dvd_shop_header.jpg");
+
+    background-position: center center;
+
+    background-repeat: no-repeat;
+
+    color: #FFFFFF;
+
+    font-family: "Myriad Pro";
+
+    font-size: 26px;
+
+    font-weight: normal;
+
+    height: 48px;
+
+    line-height: 48px;
+
+    padding-left: 15px;
+
+	margin-bottom:10px;
+
+	}
+
+.hikashop_product_page{
+
+	border: 1px solid #ECEBEB;
+
+	padding-bottom:20px;
+
+	}
+
+.hikashop_submodules{
+
+	padding-top:0px !important;
+
+	}
+
+.hikashop_checkout_page #hikashop_paypal_end span.hikashop_paypal_end_message{
+
+	font-size:12px;
+
+	}
+
+.hikashop_checkout_page #hikashop_paypal_end{
+
+	padding:15px;
+
+	}
+
+#hikashop_checkout_login_right_part .description{
+
+	font-size:12px;
+
+	color:#323232;
+
+	padding:0px 10px;
+
+	}
+
+#hikashop_checkout_login_right_part .description img{
+
+	margin:10px 45px;
+
+	}
+
+/*Error Messages*/
+
+#system-message dd{
+
+	margin-top:10px;
+
+	}
+
+#system-message dd.message ul{
+
+	border:3px solid #84A7DB !important;
+
+	background-color:#e0e0e0 !important;
+
+	}
+
+/*#system-message dd ul li{
+
+	line-height:0.5em !important;
+
+	}*/
+
+#system-message dd.notice ul{
+
+	border:3px solid #F0DC7E !important;
+
+	}
+
+#system-message dd.notice ul{
+
+	background-color:#efe7b8 !important;
+
+	}
+
+
+
+/*Pagination - Hika Shop*/
+
+
+
+.hikashop_products_pagination .list-footer span.pagenav, .hikashop_subcategories_pagination .list-footer span.pagenav{
+
+	background-color:#C9C9C9;
+
+	}
+
+.hikashop_products_pagination .list-footer a.pagenav:hover, .hikashop_subcategories_pagination .list-footer a.pagenav:hover{
+
+	background-color:#b21ce2;
+
+	color:#fff !important;
+
+	}
+
+span.pagenav_start_chevron, span.pagenav_previous_chevron, span.pagenav_next_chevron, span.pagenav_end_chevron{
+
+	color:#b21ce2;
+
+	display:none;
+
+	}
+
+.hikashop_products_pagination .list-footer a.pagenav, .hikashop_subcategories_pagination .list-footer a.pagenav{
+
+	color:#b21ce2 !important;
+
+	}
+
+.limit{
+
+	margin-bottom:10px !important;
+
+	color:#b21ce2 !important;
+
+	}
+
+.hikashop_products_pagination .list-footer .limit .inputbox, .hikashop_subcategories_pagination .list-footer .limit .inputbox{
+
+	color:#b21ce2 !important;
+
+	}
+
+
+
+.pagenav{
+
+	font-size: 12px;
+
+    padding: 4px;
+
+	color:#333;
+
+	}
+
+.pagenav:hover{
+
+	text-decoration:underline;
+
+	}
+
+.hikashop_results_counter {
+
+	margin-top:5px;
+
+	}
+
+/*DVD Shop*/
+
+.dvd_store{
+
+	margin-top:10px;
+
+	padding-bottom:15px;
+
+/*	border: 1px solid #E9E8E8;*/
+
+	margin-bottom:15px;
+
+	}
+
+.dvd_store h3{
+
+	background: url("../images/dvd_shop_header.jpg") no-repeat scroll left top transparent;
+
+    color: #FFFFFF;
+
+    display: block;
+
+    font-size: 24px;
+
+    height: 38px;
+
+    padding-left: 18px;
+
+    padding-top: 10px;
+
+	font-weight:bold;
+
+	}
+
+.dvd_shp_main_wrapper .dvd_border{
+
+	border: 1px solid #E9E8E8;
+
+	padding-bottom:15px;
+
+	padding-top:15px;
+
+	}
+
+/*Shopping Cart*/
+
+#left_col_dvd_shop .moduletable_cart{
+
+	background-color:#fff;
+
+	margin-bottom:10px;
+
+	font-size:12px;
+
+	font-family: "Myriad Pro";
+
+	width:190px;
+
+	padding-bottom:10px;
+
+	}
+
+#left_col_dvd_shop .moduletable_cart h3{
+
+	background-color: #ffb11a;
+
+    color: #282828;
+
+    font-family: "Myriad Pro";
+
+    font-size: 20px;
+
+    font-weight: normal;
+
+    margin-bottom: 5px;
+
+    padding: 10px;
+
+	}
+
+#hikashop_cart_module form{
+
+/*	overflow:hidden;*/
+
+	background-color:#fff;
+
+	margin-bottom:10px;
+
+	padding-bottom:10px;
+
+	}
+
+#hikashop_cart_module form table thead tr th{
+
+	color: #414141;
+
+    font-family: "Myriad Pro";
+
+    font-size: 12px;
+
+	text-align:center;
+
+	padding:3px 3px;
+
+	background-color:#c9c9c9;
+
+	}
+
+
+
+#hikashop_cart_module form table thead tr th.hikashop_cart_module_product_price_title{
+
+	text-align:left;
+
+	padding-left:20px;}
+
+#hikashop_cart_module form table thead tr th.hikashop_cart_module_product_price_title{
+
+	width:100px !important;
+
+	}
+
+#hikashop_cart_module form table tbody td{
+
+	padding:5px;
+
+	}
+
+#hikashop_cart_module form table tbody td.hikashop_cart_module_product_price_value span.hikashop_product_price_full{
+
+	text-align:left;
+
+	padding-left:5px;
+
+	padding-top:0px;
+
+	background-color:#fff;
+
+}
+
+#hikashop_cart_module form table tbody td.hikashop_cart_module_product_price_value span.hikashop_product_price_full span.hikashop_product_price{
+
+	font-size:12px;
+
+	}
+
+#hikashop_cart_module form table td.hikashop_cart_module_product_quantity_value input.hikashop_product_quantity_field{
+
+	text-align:center;
+
+	}
+
+#hikashop_cart_module form table tbody td a {
+
+	text-decoration:none;
+
+	font-size:12px;
+
+	font-family: "Myriad Pro";
+
+	color: #414141;
+
+	}
+
+#hikashop_cart_module form table tbody td a:hover{
+
+	text-decoration:underline;
+
+	}
+
+
+
+#hikashop_cart_module form table td.hikashop_cart_module_product_total_title{
+
+	font-size:14px;
+
+	font-family: "Myriad Pro";
+
+	color: #414141;
+
+	}
+
+#hikashop_cart_module form table td.hikashop_cart_module_product_total_value span.hikashop_product_price_full{
+
+	text-align:left;
+
+	padding-left:20px;
+
+	padding-top:0px;
+
+	background-color:#fff;
+
+	}
+
+#hikashop_cart_module form a.hikashop_cart_button{
+
+	background-color: #FFB31B !important;
+
+    background-image: none !important;
+
+    border: medium none;
+
+    box-shadow: 1px 1px 1px #B3B3B3;
+
+    color: #000000 !important;
+
+    font-family: "Myriad Pro";
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+	margin-left:25px;
+
+	}
+
+#hikashop_cart_module form a.hikashop_cart_button:hover{
+
+	background-color: #FFBD4D !important;
+
+    outline: medium none !important;
+
+	}
+
+.moduletable_mini_cart{
+
+	padding-top:15px;
+
+	}
+
+#search_wrapper a.hikashop_small_cart_checkout_link {
+
+	text-decoration:none;
+
+	}
+
+#search_wrapper a.hikashop_small_cart_checkout_link:hover{
+
+	text-decoration:underline;
+
+	color:#fff;
+
+	}
+
+a.hikashop_small_cart_checkout_link span.hikashop_small_cart_total_title{
+
+	background-image: url("../images/top_menu_line.png");
+
+    background-position: left center;
+
+    background-repeat: no-repeat;
+
+    color: #FFFEFE;
+
+    font-family: "Myriad Pro";
+
+    font-size: 13px;
+
+    font-style: normal !important;
+
+/*    padding-right: 10px;*/
+
+	padding-left:10px;
+
+	}
+
+.moduletable_mini_cart #hikashop_cart_module #hikashop_cart_mini{
+
+/*	background-image: url("../images/top_menu_line.png");
+
+    background-position: left center;
+
+    background-repeat: no-repeat;*/
+
+    color: #ffb01a;
+
+    font-family: "Myriad Pro";
+
+    font-size: 13px;
+
+    font-style: normal !important;
+
+/*	padding-left:10px;*/
+
+	}
+
+.moduletable_cart #hikashop_cart_module div#hikashop_cart{
+
+	padding:5px;
+
+	}
+
+
+
+.moduletable_mini_cart form{
+
+	overflow:visible;
+
+	z-index:1500 !important;
+
+	}
+
+.moduletable_cart td.hikashop_cart_module_product_total_title{
+
+	text-align:right;
+
+	}
+
+.moduletable_mini_cart #hikashop_cart_mini{
+
+	font-size:14px;
+
+	color:#ffb91d;
+
+	font-family: "Myriad Pro";
+
+	}
+
+.moduletable_cart span.hikashop_product_price_full{
+
+	width:0px;
+
+	}
+
+
+
+/*Inner Page Blog Layout*/
+
+#inner_page_left_col .head h1{
+
+	background: url("../images/dvd_shop_header.jpg") no-repeat scroll left top transparent;
+
+    color: #FFFFFF;
+
+    display: block;
+
+    font-size: 24px;
+
+    font-weight: bold;
+
+    height: 38px;
+
+    padding-left: 18px;
+
+    padding-top: 10px;
+
+	}
+
+.blog_inner_page .items-row{
+
+	margin-top:15px;
+
+	margin-bottom:15px;
+
+	background-color:#fff;
+
+	padding:15px 10px;
+
+	border:1px solid #e9e8e8;
+
+	}
+
+#inner_page_left_col .blog_inner_page h2{
+
+	background-image: none;
+
+    margin-bottom: 0px;
+
+	height: auto;
+
+    line-height: inherit;
+
+	}
+
+#inner_page_left_col .blog_inner_page h2 a{
+
+	color: #323232;
+
+    font-family: "Myriad Pro";
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+	padding-left:0px;
+
+	}
+
+#inner_page_left_col .item-page{
+
+	border: 1px solid #E9E8E8;
+
+	padding-bottom:10px;
+
+	background-color:#fff;
+
+	}
+
+.blog_inner_page .article_content{
+
+	font-size:12px;
+
+	color:#323232;
+
+	height:45px;
+
+	}
+
+.blog_inner_page p.readmore a {
+
+	background-color: #232323;
+
+    color: #FFFFFF;
+
+    font-family: "Myriad Pro";
+
+    font-size: 13px;
+
+    padding: 4px 10px;
+
+    text-decoration: none;
+
+	}
+
+.blog_inner_page p.readmore a:hover{
+
+	background-color: #6B1B6D;
+
+	}
+
+.blog_inner_page p.readmore{
+
+	text-align:right;
+
+	}
+
+.blog_inner_page dd.create{
+
+	font-family: "Myriad Pro";
+
+    font-size: 12px;
+
+	margin-bottom:10px;
+
+	}
+
+/*Inner Page Full Width*/
+
+#inner_page_full_width h2{
+
+	background: url("../images/full_width_header.jpg") no-repeat scroll left top transparent;
+
+    color: #FFFFFF;
+
+    display: block;
+
+    font-size: 24px;
+
+    font-weight: bold;
+
+    height: 38px;
+
+    padding-left: 18px;
+
+    padding-top: 10px;
+
+	margin-bottom:10px;
+
+	} 
+
+#inner_page_full_width h2 a{
+
+	text-decoration:none;
+
+	color:#fff;
+
+	}
+
+#inner_page_full_width .item-page{
+
+	border: 1px solid #E9E8E8;
+
+	padding-bottom:10px;
+
+	background-color:#fff;
+
+	}
+
+#inner_page_full_width p{
+
+	color: #323232;
+
+    font-size: 12px;
+
+    padding: 3px 15px;
+
+	text-align:justify;
+
+	}
+
+/*Single Page Inner*/
+
+.item-page_inner_page{
+
+	border: 1px solid #E9E8E8;
+
+	padding-bottom:10px;
+
+	background-color:#fff;
+
+	}
+
+.item-page_inner_page h1{
+
+	display:none;
+
+	}
+
+.item-page_inner_page p img{
+
+	border:4px solid #e1e1e1;
+
+	margin:15px;
+
+	}
+
+.item-page_inner_page h3, .item-page_inner_page h4, .item-page_inner_page h5, .item-page_inner_page h6{
+
+	padding:3px 15px;
+
+	color:##323232;
+
+	}
+
+.item-page_inner_page h3{
+
+	font-size:24px;
+
+	}
+
+.item-page_inner_page h4{
+
+	font-size:20px;
+
+	}
+
+.item-page_inner_page h5{
+
+	font-size:16px;
+
+	}
+
+.item-page_inner_page h6{
+
+	font-size:14px;
+
+	}
+
+.item-page_inner_page ul{
+
+	margin-left:25px;
+
+	}
+
+.item-page_inner_page ul li{
+
+	padding:3px 15px;
+
+	font-size:12px;
+
+	list-style:disc inside;
+
+	}
+
+
+
+/*Search Results Page*/
+
+#inner_page_left_col .search{
+
+	background-color:#fff;
+
+	padding-bottom:10px;
+
+	border: 1px solid #E9E8E8;
+
+}
+
+.search h1{
+
+	  background: url("../images/dvd_shop_header.jpg") no-repeat scroll left top transparent;
+
+    color: #FFFFFF;
+
+    display: block;
+
+    font-size: 24px;
+
+    font-weight: bold;
+
+    height: 38px;
+
+    padding-left: 18px;
+
+    padding-top: 10px;
+
+	}
+
+form#searchForm .word{
+
+	margin-top:15px;
+
+	padding:0px 15px;
+
+	margin-bottom:5px;
+
+	
+
+	}
+
+form#searchForm .word label{
+
+	font-size:14px;
+
+	font-weight:bold;
+
+	color:#323232;
+
+	}
+
+form#searchForm .word input.inputbox{
+
+	width:200px;
+
+	height:25px;
+
+	background-color:#eeeeee;
+
+	border:1px solid #e9e8e8;
+
+	}
+
+form#searchForm .word button.button{
+
+	background-color: #232323;
+
+    color: #FFFFFF;
+
+    font-family: "Myriad Pro";
+
+    font-size: 13px;
+
+    padding: 4px 10px;
+
+    text-decoration: none;
+
+	border:none;
+
+	cursor:pointer;
+
+	}
+
+form#searchForm .word button.button:hover{
+
+	background-color:#6b1b6d;
+
+	}
+
+form#searchForm .phrases{
+
+	padding:0px 15px;
+
+	margin-top:15px;
+
+	}
+
+form#searchForm .phrases legend{
+
+	font-size:14px;
+
+	font-weight:bold;
+
+	color:#323232;
+
+	margin-bottom:5px;
+
+	}
+
+form#searchForm .phrases label{
+
+	font-size:12px;
+
+	}
+
+.phrases-box{
+
+	margin-left:25px;
+
+	}
+
+.ordering-box{
+
+	margin-top:15px;
+
+	}
+
+.ordering-box label{
+
+	font-size:14px !important;
+
+	font-weight:bold;
+
+	color:#323232;
+
+	}
+
+.ordering-box select{
+
+	height:25px;
+
+	background-color:#eeeeee;
+
+	border:1px solid #e9e8e8;
+
+	vertical-align:middle;
+
+	}
+
+form#searchForm .only{
+
+	margin-top:15px;
+
+	padding:0px 15px;
+
+	}
+
+form#searchForm .only legend{
+
+	font-size:14px;
+
+	font-weight:bold;
+
+	color:#323232;
+
+	margin-bottom:5px;
+
+	}
+
+form#searchForm .only label{
+
+	font-size:12px;
+
+	vertical-align:middle;
+
+	}
+
+.form-limit{
+
+	padding:0px 15px;
+
+	margin-top:15px;
+
+	
+
+	}
+
+.form-limit label{
+
+	font-size:14px;
+
+	font-weight:bold;
+
+	color:#323232;
+
+	margin-bottom:5px;
+
+	}
+
+.form-limit select{
+
+	height:25px;
+
+	background-color:#eeeeee;
+
+	border:1px solid #e9e8e8;
+
+	vertical-align:middle;
+
+	}
+
+dl.search-results{
+
+	padding:0px 15px;
+
+	margin-top:20px;
+
+	}
+
+dt.result-title{
+
+	color:#b822ba;
+
+	font-size:14px;
+
+	font-weight:bold;
+
+	margin-bottom:5px;
+
+	margin-top:10px;
+
+	}
+
+dt.result-title a{
+
+	color:#b822ba;
+
+	font-size:14px;
+
+	font-weight:bold;
+
+	}
+
+dd.result-category{
+
+	font-size:12px;
+
+	font-weight:bold;
+
+	}
+
+dd.result-created{
+
+	display:none;
+
+	}
+
+dd.result-text{
+
+	font-size:12px;
+
+	}
+
+.searchintro p strong{
+
+	font-size:12px;
+
+	}
+
+/*DVD Shop Search Results*/
+
+#right_col_dvd_shop .search{
+
+	padding-bottom:10px;
+
+	border: 1px solid #ECEBEB;
+
+	}
+
+#right_col_dvd_shop .searchintro{
+
+	margin-left:15px;
+
+}
+
+.result_wrapper{
+
+	padding:10px;
+
+	border: 1px solid #ECEBEB;
+
+	margin-bottom:10px;
+
+	}
+
+.result_wrapper .image_container img{	
+
+border: 3px solid #E1E1E1;
+
+}
+
+/*Pagination*/
+
+.pagination{
+
+	text-align:center;
+
+	}
+
+.pagination ul li{
+
+	display:inline;
+
+	}
+
+.pagination ul li .pagenav{
+
+	border:1px solid #C9C9C9;
+
+	margin-right:3px;
+
+	font-weight:bold;
+
+	color: #B21CE2 !important;
+
+	}
+
+.pagination ul li span.pagenav{
+
+	background-color: #C9C9C9;
+
+	}
+
+.pagination ul li .pagenav:hover{
+
+	background-color: #C9C9C9;
+
+	}
+
+.pagination ul li a{
+
+	text-decoration:none;
+
+	color:#fff;
+
+	}
+
+.pagination ul li a:hover{
+
+	text-decoration:none;
+
+	}
+
+
+
+/*Registration Page*/
+
+
+
+.form_area{
+
+	background-color:#fff;
+
+	border: 1px solid #ECEBEB;
+
+	padding:15px;
+
+	}
+
+.form_area .description{
+
+	color:#323232;
+
+	font-size:12px;
+
+	margin-bottom:15px;
+
+	}
+
+form#member-registration table tr td{
+
+	vertical-align:middle;
+
+	}
+
+form#member-registration table .form_label{
+
+	width:175px;
+
+	}
+
+form#member-registration table .form_label label, .form_input label{
+
+	color:#323232;
+
+	font-size:12px;
+
+	font-weight:bold;
+
+	}
+
+form#member-registration table .form_input input{
+
+	width:295px;
+
+	height:22px;
+
+	margin:5px 0px;
+
+	background-color:#eeeeee;
+
+	border:1px solid #eae9e9;
+
+	padding:2px;
+
+}
+
+form#member-registration table .form_input select{
+
+	width:300px;
+
+	margin:5px 0px;
+
+	background-color:#eeeeee;
+
+	border:1px solid #eae9e9;
+
+	}
+
+span.star{
+
+	color:#F00;
+
+	}
+
+span.small_text, span.agree{
+
+	color:#323232;
+
+	font-size:12px;
+
+	margin-bottom:10px;
+
+	}
+
+form#member-registration table .form_input input#jform_subscribe_sms0, form#member-registration table .form_input input#jform_subscribe_sms1, form#member-registration table .form_input input#jform_newsletter_subscribe0, form#member-registration table .form_input input#jform_newsletter_subscribe1{
+
+	width:auto;
+
+	vertical-align:middle;
+
+	margin-right:5px;
+
+	}
+
+form#member-registration table .form_input input#jform_subscribe_sms1, form#member-registration table .form_input input#jform_newsletter_subscribe1{
+
+	margin-left:10px;
+
+	}
+
+form#member-registration table .form_input input#jform_newsletter_subscribe{
+
+	margin-left:4px;
+
+	}
+
+form#member-registration table .form_label label, .form_input label#jform_newsletter_subscribe-lbl{
+
+	vertical-align:super;
+
+	margin-left:5px;
+
+	font-weight:normal;
+
+	}
+
+form#member-registration table .form_input input#captchavalue{
+
+	width:30px;
+
+	}
+
+span.agree a{
+
+	text-decoration:none;
+
+	color:#70028c;
+
+	}
+
+span.agree a:hover{
+
+	text-decoration:underline;
+
+	}
+
+#register-button{
+
+	margin-top:10px;
+
+	}
+
+#register-button button{
+
+	background-color:#232323;
+
+	padding:5px 15px;
+
+	color:#fff;
+
+	font-family:"Myriad Pro";
+
+	font-size:13px;
+
+	border:none;
+
+	cursor:pointer;
+
+	}
+
+#register-button button:hover{
+
+background-color: #6B1B6D;
+
+}
+
+label#jform_subscribe_sms-lbl{
+
+	    margin-left: 5px;
+
+    vertical-align: super;
+
+	}
+
+.form_input img#jform_date_of_birth_img{
+
+	margin-left:5px;
+
+	}
+
+
+
+.tip{
+
+	background-color:#dadada !important;
+
+	border:2px solid #c551c7 !important;
+
+	font-size:12px !important;
+
+	padding:3px;
+
+	}
+
+.tip-title{
+
+	color:#000 !important;
+
+	font-size:13px !important;
+
+	font-weight:bold;
+
+	}
+
+.tip-text{
+
+	color:#333 !important;
+
+	}
+
+form#member-registration table .form_input select.date, form#member-registration table .form_input select.month, form#member-registration table .form_input select.year{
+
+	width:98px;
+
+	}
+
+span#ValidCheckbox input{
+
+	vertical-align:middle;
+
+	}
+
+/*Login page*/
+
+
+
+.login_com_wrapper{
+
+	/*background-color:#fff;*/
+
+	}
+
+.login_com_wrapper h1{
+
+	background-image: url("../images/inner_pages_header_bg.jpg");
+
+    background-position: right center;
+
+    background-repeat: no-repeat;
+
+    height: 48px;
+
+    line-height: 48px;
+
+	color: #FFFFFF;
+
+    font-family: "Myriad Pro";
+
+    font-size: 26px;
+
+    font-weight: normal;
+
+    padding-left: 18px;
+
+    text-decoration: none;
+
+	}
+
+.login_com_wrapper .login, .login_com_wrapper .logout{
+
+	background-color:#fff;
+
+	margin-left:0px;
+
+	border: 1px solid #E9E8E8;
+
+	padding-bottom:15px;
+
+	}
+
+.login_com_wrapper .logout .submit_button{
+
+	padding:20px 15px 10px;
+
+	}
+
+.login_com_wrapper .login .login-description{
+
+	font-size:12px;
+
+	color:#323232;
+
+	padding:15px;
+
+	}
+
+.login_com_wrapper .login form.login_table{
+
+	margin-left:15px;
+
+	}
+
+.login_com_wrapper .login form.login_table td label{
+
+	font-size:12px;
+
+	color:#323232;
+
+	}
+
+.login_com_wrapper .login form.login_table td input{
+
+	width:390px;
+
+	height:27px;
+
+	background-color:#eeeeee;
+
+	margin-bottom:15px;
+
+	padding-left:5px;
+
+	}
+
+.login_com_wrapper .login form.login_table td input#modlgn-remember{
+
+	width:auto;
+
+	height:auto;
+
+	margin-bottom:0px;
+
+	vertical-align:middle;
+
+	}
+
+.login_com_wrapper .login form.login_table td ul{
+
+	margin-top:5px;
+
+	}
+
+.login_com_wrapper .login form.login_table td ul li a{
+
+	font-size:12px;
+
+	color:#48005f;
+
+	}
+
+.login_com_wrapper .login .submit_button{
+
+	text-align:right;
+
+	margin-right:60px;
+
+	}
+
+.login_com_wrapper .login .submit_button button,.login_com_wrapper .logout .submit_button button{
+
+	background-color: #232323;
+
+    background-image: none;
+
+    color: #FFFFFF;
+
+    font-family: "Myriad Pro";
+
+    font-size: 13px;
+
+	border:none;
+
+	padding:5px;
+
+	cursor:pointer;
+
+	}
+
+.login_com_wrapper .login .submit_button button:hover, .login_com_wrapper .logout .submit_button button:hover{
+
+	background-color: #6B1B6D;
+
+	}
+
+.reg_image{
+
+	text-align:center;
+
+	margin-top:15px;
+
+	}
+
+
+
+/*Password Reset Page*/
+
+
+
+.reset h1, .remind h1, .profile h1{
+
+	background-image: url("../images/inner_pages_header_bg.jpg");
+
+    background-position: right center;
+
+    background-repeat: no-repeat;
+
+    color: #FFFFFF;
+
+    font-family: "Myriad Pro";
+
+    font-size: 26px;
+
+    font-weight: normal;
+
+    height: 48px;
+
+    line-height: 48px;
+
+    padding-left: 18px;
+
+    text-decoration: none;
+
+	}
+
+.reset form, .remind form{
+
+	background-color: #FFFFFF;
+
+    border: 1px solid #E9E8E8;
+
+    margin-left: 0;
+
+    padding:15px 0px;
+
+	}
+
+.reset form fieldset, .remind form fieldset{
+
+	margin-left:15px;
+
+	margin-top:10px;
+
+	}
+
+.reset form fieldset label, .remind form fieldset label{
+
+		font-size:12px;
+
+	color:#323232;
+
+	}
+
+.reset form fieldset input, .remind form fieldset input{
+
+	    background-color: #EEEEEE;
+
+    height: 27px;
+
+    margin-bottom: 15px;
+
+    padding-left: 5px;
+
+    width: 390px;
+
+	border:none;
+
+	}
+
+.reset form div button, .remind form div button{
+
+		background-color: #232323;
+
+    background-image: none;
+
+    color: #FFFFFF;
+
+    font-family: "Myriad Pro";
+
+    font-size: 13px;
+
+	border:none;
+
+	padding:5px;
+
+	cursor:pointer;
+
+	margin-left:15px;
+
+	}
+
+.reset form div button:hover, .remind form div button:hover{
+
+	background-color: #6B1B6D;
+
+	}
+
+/*Profile Page*/
+
+
+
+.profile_wrapper h1{
+
+	background-image: url("../images/inner_pages_header_bg.jpg");
+
+    background-position: right center;
+
+    background-repeat: no-repeat;
+
+    color: #FFFFFF;
+
+    font-family: "Myriad Pro";
+
+    font-size: 26px;
+
+    font-weight: normal;
+
+    height: 48px;
+
+    line-height: 48px;
+
+    padding-left: 18px;
+
+    text-decoration: none;
+
+	}
+
+.profile_wrapper .profile{
+
+	background-color: #FFFFFF;
+
+    border: 1px solid #E9E8E8;
+
+    margin-left: 0;
+
+    padding:15px 15px;
+
+	font-size:12px;
+
+	}
+
+.profile_wrapper .profile fieldset#users-profile-core{
+
+	margin-bottom:15px;
+
+	}
+
+.profile_wrapper .profile legend{
+
+	font-size:15px;
+
+	font-weight:bold;
+
+	}
+
+.profile_wrapper .profile dt{
+
+	font-weight:bold;
+
+	}
+
+.profile_wrapper .profile dd{
+
+	margin-bottom:5px;
+
+	}
+
+.profile_wrapper .profile a{
+
+	color:#48005f;
+
+	}
+
+.profile_edit_wrapper h1{
+
+	    background-image: url("../images/inner_pages_header_bg.jpg");
+
+    background-position: right center;
+
+    background-repeat: no-repeat;
+
+    height: 48px;
+
+    line-height: 48px;
+
+	 color: #FFFFFF;
+
+    font-family: "Myriad Pro";
+
+    font-size: 26px;
+
+    font-weight: normal;
+
+    padding-left: 18px;
+
+    text-decoration: none;
+
+	font-style:normal;
+
+	}
+
+.profile_edit_wrapper .profile-edit{
+
+	background-color:#fff;
+
+	border: 1px solid #E9E8E8;
+
+	padding:15px;
+
+	}
+
+.profile_edit_wrapper .profile-edit .form_label label{
+
+	font-size:12px;
+
+	color:#323232;
+
+	}
+
+.profile_edit_wrapper .profile-edit .form_input input{
+
+	background-color:#eeeeee;
+
+	width:290px;
+
+	height:22px;
+
+	border:none;
+
+	margin: 5px 0px;
+
+	}
+
+.profile_edit_wrapper .profile-edit .form_input input#jform_subscribe_sms0, .profile_edit_wrapper .profile-edit .form_input input#jform_subscribe_sms1, .profile_edit_wrapper .profile-edit .form_input input#jform_newsletter_subscribe0, .profile-edit .form_input input#jform_newsletter_subscribe1{
+
+	width:auto;
+
+	vertical-align:middle;
+
+	}
+
+.profile_edit_wrapper .profile-edit .form_input input#jform_subscribe_sms1, .profile_edit_wrapper .profile-edit .form_input input#jform_newsletter_subscribe1{
+
+	margin-left:10px;
+
+	}	
+
+.profile_edit_wrapper .profile-edit .form_input select{
+
+		background-color:#eeeeee;
+
+	width:290px;
+
+	height:22px;
+
+	border:none;
+
+	margin: 5px 0px;
+
+	}	
+
+.profile_edit_wrapper .profile-edit .form_input select#date, .profile_edit_wrapper .profile-edit .form_input select#month, 	.profile_edit_wrapper .profile-edit .form_input select#year{
+
+	width:94px;
+
+	}
+
+.profile_edit_wrapper .profile-edit table tr td{
+
+	vertical-align:middle;
+
+	}
+
+.profile_edit_wrapper .profile-edit h4{
+
+	border-bottom:1px solid #333;
+
+	margin-bottom:5px;
+
+	color:#323232;
+
+	}	
+
+.profile_edit_wrapper .profile-edit .description{
+
+	font-size:12px;
+
+	padding-bottom:5px;
+
+	color:#323232;
+
+	}
+
+/*Registration Page DVD shop*/
+
+
+
+
+
+#hikashop_checkout_login_right_part .form_area{
+
+	border:none;
+
+	}
+
+#hikashop_checkout_login_right_part .form_area label{
+
+	    color: #323232;
+
+    font-size: 12px;
+
+	}
+
+#hikashop_checkout_login_right_part .form_area input{
+
+	background-color: #EEEEEE;
+
+    border: 1px solid #EAE9E9;
+
+    height: 22px;
+
+    margin: 5px 0;
+
+    padding: 2px;
+
+    width: 190px;
+
+	}
+
+#hikashop_checkout_login_right_part .form_area input#jform_subscribe_sms0, #hikashop_checkout_login_right_part .form_area input#jform_subscribe_sms1, #hikashop_checkout_login_right_part .form_area input#jform_newsletter_subscribe0, #hikashop_checkout_login_right_part .form_area input#jform_newsletter_subscribe1, #hikashop_checkout_login_right_part .form_area input#rg_termscond{
+
+	width:auto;
+
+	vertical-align:middle;
+
+	margin-right:5px;
+
+	}
+
+#hikashop_checkout_login_right_part .form_area input#jform_subscribe_sms1, #hikashop_checkout_login_right_part .form_area input#jform_newsletter_subscribe1{
+
+	margin-left:15px;
+
+	}
+
+#hikashop_checkout_login_right_part .form_area input#captchavalue{
+
+	width:100px;
+
+	}
+
+
+
+#hikashop_checkout_login_right_part .form_area select{
+
+	background-color: #EEEEEE;
+
+    border: 1px solid #EAE9E9;
+
+    height: 22px;
+
+    margin: 5px 0;
+
+    padding: 2px;
+
+    width: 195px;
+
+	}
+
+#hikashop_checkout_login_right_part .form_area select#date, #hikashop_checkout_login_right_part .form_area select#month, #hikashop_checkout_login_right_part .form_area select#year{
+
+	width:62px;
+
+	}
+
+
+
+/*Inner Component Pages - Theater Page*/
+
+
+
+.page_wrapper{
+
+	background-color: #FFFFFF;
+
+    border: 1px solid #E9E8E8;
+
+    padding-bottom:10px;
+
+	}
+
+.header_detail_wrapper{
+
+	margin-bottom:20px;
+
+	}
+
+.page_wrapper h2{
+
+    background: url("../images/full_width_header.jpg") no-repeat scroll left top transparent;
+
+    color: #FFFFFF;
+
+    display: block;
+
+    font-size: 24px;
+
+    font-weight: bold;
+
+    height: 38px;
+
+    margin-bottom: 10px;
+
+    padding-left: 18px;
+
+    padding-top: 10px;
+
+	margin-top:0px;
+
+}
+
+#theater {
+
+	    border: 1px solid #E9E8E8;
+
+		    margin-left: 12px;
+
+    width: 452px;
+
+	padding-bottom:15px;
+
+	margin-bottom:15px;
+
+	
+
+	
+
+	}
+
+#theater h3{
+
+	background: url("../images/theater_headder.jpg") no-repeat scroll left top transparent;
+
+    color: #FFFFFF;
+
+    display: block;
+
+	font-family: "Myriad Pro";
+
+    font-size: 20px;
+
+    font-weight: normal;
+
+    height: 37px;
+
+    margin-bottom: 10px;
+
+    padding-left: 18px;
+
+    padding-top: 4px;
+
+	margin-top:0px;
+
+	}
+
+#theater #image{
+
+	text-align:center;
+
+	}
+
+.details {
+
+	min-height:125px;
+
+	}
+
+.details p{
+
+	color:#323232;
+
+	font-size:12px;
+
+	text-align:justify;
+
+	}
+
+
+
+#theater .read_more{
+
+	text-align:right;
+
+	margin-right:15px;
+
+	margin-top:15px;
+
+	
+
+	}
+
+#theater .read_more a{
+
+	background-color: #232323;
+
+    color: #FFFFFF;
+
+    font-family: "Myriad Pro";
+
+    font-size: 13px;
+
+    padding: 4px 10px;
+
+    text-decoration: none;
+
+	}
+
+#theater .read_more a:hover{
+
+	background-color: #6B1B6D;
+
+	}
+
+.header_name h2{
+
+	    color: #FFFFFF;
+
+    font-family: "Myriad Pro";
+
+    font-size: 26px;
+
+    font-weight: normal;
+
+    padding-left: 18px;
+
+    text-decoration: none;
+
+	padding-top:0px;
+
+	}
+
+.main_image{
+
+	text-align:center;
+
+	margin-left:16px;
+
+	}
+
+
+
+.main_image img{
+
+/*	border:3px solid #e9e8e8;*/
+
+	}
+
+.slider_area{
+
+	margin-top:15px;
+
+	text-align:center;
+
+	}
+
+.description .contact h5{
+
+	color:#414141;
+
+	font-size:13px;
+
+	font-family: "Myriad Pro";
+
+	font-weight:bold;
+
+	padding: 0 15px;
+
+	margin:5px 0px;
+
+	}
+
+.description .contact p{
+
+	margin:3px;
+
+	}
+
+.facilities{
+
+	margin-top:15px
+
+	}
+
+.facilities h4{
+
+		background: url("../images/theater_details_header.jpg") no-repeat scroll left top transparent;
+
+    color: #FFFFFF;
+
+    display: block;
+
+	font-family: "Myriad Pro";
+
+    font-size: 20px;
+
+    font-weight: normal;
+
+    height: 40px;
+
+    margin-bottom: 10px;
+
+    padding-left: 18px;
+
+    padding-top: 6px;
+
+	margin-top:0px;
+
+	}
+
+.bottom_details p{
+
+	padding:0px 5px !important;
+
+	}
+
+#fac_details{
+
+	margin-left:15px;
+
+	margin-bottom:25px;
+
+	
+
+	}
+
+.top_part{
+
+	margin-bottom:10px;
+
+	}
+
+.top_part span{
+
+	font-size:12px;
+
+	line-height:40px;
+
+	}
+
+.now_showing{
+
+	margin-top:15px;
+
+	}
+
+.now_showing .movies{
+
+	margin-left:15px;
+
+	}
+
+.now_showing h4{
+
+			background: url("../images/theater_details_header.jpg") no-repeat scroll left top transparent;
+
+    color: #FFFFFF;
+
+    display: block;
+
+	font-family: "Myriad Pro";
+
+    font-size: 20px;
+
+    font-weight: normal;
+
+    height: 40px;
+
+    margin-bottom: 10px;
+
+    padding-left: 18px;
+
+    padding-top: 6px;
+
+	margin-top:0px;
+
+	}
+
+.buy_tickets a{
+
+	background-color: #FFB31B !important;
+
+    background-image: none !important;
+
+    border: medium none;
+
+    box-shadow: 1px 1px 1px #B3B3B3;
+
+    color: #000000 !important;
+
+    font-family: "Myriad Pro";
+
+    font-size: 14px;
+
+    font-weight: normal;
+
+	padding:5px 10px;
+
+	text-decoration:none;
+
+	}
+
+.buy_tickets .disabled{
+
+	background-color: #c5c5c5 !important;
+
+	font-family: "Myriad Pro";
+
+    font-size: 14px;
+
+	padding:5px;
+
+	box-shadow: 1px 1px 1px #B3B3B3;
+
+	}
+
+.buy_tickets a:hover{
+
+	    background-color: #FFBD4D !important;
+
+    outline: medium none !important;
+
+}
+
+.now_showing .movie_img img{
+
+	width:110px;
+
+	}
+
+.now_showing #movie {
+
+	background-color:transparent;
+
+	}
+
+.now_showing .movie_name{
+
+	background-color:#ededed;
+
+	}
+
+.now_showing .movie_name a{
+
+	font-family: "Myriad Pro";
+
+    font-size: 13px;
+
+	}
+
+.now_showing .buy_tickets{
+
+	margin-top:15px;
+
+	text-align:center;
+
+	}
+
+.now_showing .movie_time{
+
+	background-color:#4b0063;
+
+	font-size:15px;
+
+	font-family: "Myriad Pro";
+
+	color:#fff;
+
+	text-align:center;
+
+	padding:7px 0px;
+
+	}
+
+/*Inner Component Pages - Movies Page*/
+
+
+
+.movies_wrapper h3{
+
+	font-family: "Myriad Pro";
+
+    font-size: 27px;
+
+    font-weight: normal;
+
+	padding-bottom:5px;
+
+	border-bottom:1px solid #e9e8e8;
+
+	margin:0px 15px 10px  15px ;
+
+	}
+
+#movie{
+
+	background-color:#f4f4f4;
+
+	margin-bottom:15px;
+
+	}
+
+.movie_name{
+
+	padding:5px;
+
+	text-align:center;
+
+	}
+
+.movie_name a{
+
+	font-family: "Myriad Pro";
+
+    font-size: 13px;
+
+	color:#323232;
+
+	text-decoration:none;
+
+	}
+
+.movies_wrapper .movies{
+
+	margin:0px 15px;
+
+	border-bottom: 1px solid #E9E8E8;
+
+	margin-bottom:25px;
+
+	}
+
+.available_theaters table{
+
+	margin-left:15px;
+
+	}
+
+.available_theaters h3{
+
+	font-family: "Myriad Pro";
+
+    font-size: 20px;
+
+	color:#414141;
+
+	font-weight:normal;
+
+	padding-bottom:10px;
+
+	border-bottom:1px solid #e9e8e8;
+
+	margin:15px 15px 10px;
+
+	}
+
+.at_container{
+
+	background-color:#f1f1f1;
+
+	}
+
+.t_image{
+
+	text-align:center;
+
+	}
+
+.t_name{
+
+	text-align:center;
+
+	font-size:14px;
+
+	}
+
+.t_name b{
+
+	font-family: "Myriad Pro";
+
+    font-size: 12px;
+
+	color:#323232;
+
+	font-weight:bold;
+
+	}
+
+.show_times{
+
+	padding:5px;
+
+	background-color:#323232;
+
+	text-align:center;
+
+	}
+
+.show_times a{
+
+	color:#fff;
+
+	font-size:12px;
+
+	}
+
+.show_times a:hover{
+
+	color:#ffba1d;
+
+	}
+
+.buy_tickets_wrapper{
+
+	text-align:center;
+
+	margin-top:15px;
+
+	}
+
+.buy_tickets_wrapper a{
+
+    background-color: #FFB31B !important;
+
+    background-image: none !important;
+
+    border: medium none;
+
+    box-shadow: 1px 1px 1px #B3B3B3;
+
+    color: #000000 !important;
+
+    font-family: "Myriad Pro";
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+	padding:5px;
+
+	text-decoration:none;
+
+}
+
+.buy_tickets_wrapper a:hover{
+
+    background-color: #FFBD4D !important;
+
+    outline: medium none !important;
+
+}
+
+.synopsis{
+
+	margin-top:15px;
+
+	}
+
+.synopsis ul{
+
+	margin-left:60px;
+
+	}
+
+.synopsis p strong{
+
+	padding:3px 0px;
+
+	}
+
+.synopsis ul li{
+
+	color: #323232;
+
+    font-size: 12px;
+
+	list-style:disc outside;
+
+	}
+
+.synopsis h4 {
+
+    background: url("../images/theater_details_header.jpg") no-repeat scroll left top transparent;
+
+    color: #FFFFFF;
+
+    display: block;
+
+    font-family: "Myriad Pro";
+
+    font-size: 20px;
+
+    font-weight: normal;
+
+    height: 40px;
+
+    margin-bottom: 10px;
+
+    margin-top: 0;
+
+    padding-left: 18px;
+
+    padding-top: 6px;
+
+}
+
+#movie .movie_img img{
+
+	width:110px;
+
+	height:132px;
+
+	}
+
+.available_theaters .movies{
+
+	margin-left:15px;
+
+	}
+
+.available_theaters .buy_tickets {
+
+    margin-top: 15px;
+
+    text-align: center;
+
+}
+
+.available_theaters .movies #movie{
+
+	background-color:transparent;
+
+	}
+
+.available_theaters .movies #movie .movie_name{
+
+	background-color:#f1f1f1;
+
+	}
+
+.page_wrapper .synopsis p{
+
+	padding:3px 15px !important;
+
+	}
+
+/*Mvie Page Slider*/
+
+
+
+.image_slider{
+
+	margin-top:25px;
+
+	}
+
+
+
+#gallery-wrap {
+
+/*	margin: 0 auto;*/
+
+    overflow: hidden;
+
+    position: relative;
+
+    width: 490px;
+
+}
+
+#gallery {
+
+	position: relative;
+
+	left: 0;
+
+	top: 0;
+
+}
+
+#gallery li {
+
+	float: left;
+
+	margin: 0 5px 10px 0;
+
+}
+
+#gallery li a img {
+
+/*	border: 4px solid #40331b;*/
+
+	height: 150px;
+
+	width: 160px;
+
+}
+
+.image_slider{
+
+ height:165px;
+
+}
+
+#gallery-controls {
+
+/*	width: 30px;*/
+
+
+
+}
+
+#gallery-prev {
+
+    float: left;
+
+    margin-left: 6px;
+
+    margin-right: 4px;
+
+    margin-top: -7px;
+
+    width: 40px;
+
+}
+
+#gallery-next {
+
+    float: right;
+
+    margin-right: 4px;
+
+    margin-top: -169px;
+
+    width: 40px;
+
+}
+
+
+
+/*Buy Tickets Page*/
+
+
+
+.steps_wrapper{
+
+	width:825px;
+
+	margin-left:135px;	
+
+	}
+
+.steps_wrapper span{
+
+	float:left;
+
+	width:150px;
+
+	display:inline;
+
+	padding:10px 0px 15px 20px;
+
+	background-image:url(../images/buy_tickets_bg_inactive.jpg);
+
+	background-repeat:repeat-x;
+
+	background-position:bottom left;
+
+	border:1px solid #cbcbcb;
+
+	border-bottom:none;
+
+	margin-top:10px;
+
+	
+
+	}
+
+.steps_wrapper span.item_1{
+
+	border-radius:15px 0px 0px 0px;
+
+	}
+
+.steps_wrapper span.item_4{
+
+	border-radius:0px 15px 0px 0px;
+
+	}
+
+.steps_wrapper span.active{
+
+	background-image:url(../images/buy_tickets_bg.jpg);
+
+	background-repeat:repeat-x;
+
+	background-position:center left;
+
+	}
+
+.steps_wrapper span h4, .steps_wrapper span h5{
+
+	font-family:"Myriad Pro";
+
+	font-size:16px;
+
+	color:#414141;
+
+	font-weight:normal;
+
+	}
+
+.steps_wrapper span.active h4, .steps_wrapper span.active h5{
+
+	color:#fff;
+
+	}
+
+
+
+.reservationContent label{
+
+	color:#323232;
+
+	font-size:12px;
+
+	}
+
+.reservationContent select{
+
+	width:310px;
+
+	height:25px;
+
+	background-color:#eeeeee;
+
+	border:1px solid #e8e8e8;
+
+	margin:5px 0;
+
+	color:#5b5b5b;
+
+	}
+
+.reservationContent input{
+
+	width:270px;
+
+	height:22px;
+
+	background-color:#eeeeee;
+
+	border:1px solid #e8e8e8;
+
+	margin:5px 0;
+
+	color:#5b5b5b;
+
+	}
+
+.reservationContent table{
+
+	margin:0 auto;
+
+	}
+
+.reservationContent table tr td img{
+
+	margin-left:12px;
+
+	}
+
+.reservationContent tr td{
+
+	vertical-align:middle;
+
+	}
+
+.reservationContent .next_btn{
+
+	text-align:right;
+
+	margin:10px 75px 20px 0px;
+
+	}
+
+.reservationContent .next_btn button{
+
+	background-image:url(../images/next_btn.jpg);
+
+	height:34px;
+
+	width:70px;
+
+	border:none;
+
+	cursor:pointer;
+
+	}
+
+#ticket_prices{
+
+	text-align:center;
+
+	margin-top:20px;
+
+	}
+
+#ticket_prices span{
+
+	font-family:"Myriad Pro";
+
+	font-size:18px;
+
+	text-align:center;
+
+	margin-bottom:15px;
+
+	color:#323232;
+
+	}
+
+#ticket_prices .ticketPricetable {
+
+	border:1px solid #b0b0b0;
+
+	margin:10px auto;
+
+	}
+
+#ticket_prices .ticketPricetable tr th{
+
+	font-family:"Myriad Pro";
+
+	font-size:13px;
+
+	color:#323232;
+
+	padding:3px 10px;
+
+	font-weight:bold;
+
+	text-align:center;
+
+	}
+
+#ticket_prices .ticketPricetable tr td{
+
+	font-size:12px;
+
+	color:#323232;
+
+	padding:3px 25px;
+
+	}
+
+
+
+#seatBooking{
+
+	margin:0 18px;
+
+	border:1px solid #e9e8e8;
+
+	border-top:3px solid #310040;
+
+	}
+
+.bookingtimer{
+
+	padding:10px 20px;
+
+	background-color:#e4e4e4;
+
+	margin:0 15px;
+
+	font-size:18px;
+
+	text-align:left;
+
+
+
+	}
+
+.bookingtimer button{
+
+	background-color:#7e7e7e;
+
+	padding:5px 10px;
+
+	border:none;
+
+		color:#fff;
+
+	cursor:pointer;
+
+	margin-left:15px;
+
+	}
+
+.inner_wrapper_buy{
+
+	margin:0 18px;
+
+	border:1px solid #e9e8e8;
+
+	border-top:3px solid #310040;
+
+	padding:0 15px;
+
+	}
+
+.bookingtimer_3{
+
+	font-size:20px;
+
+	color:#2c2c2c;
+
+	font-family:"Myriad Pro";
+
+	text-transform:none;
+
+	text-align:left;
+
+	margin:15px 0;
+
+	}
+
+.bookingDetails h2, .userDetails h2{
+
+		font-family:"Myriad Pro";
+
+		font-size:18px !important;
+
+		height:30px !important;
+
+		line-height:20px;
+
+		}
+
+.bookingDetails table{
+
+	margin-left:15px;
+
+	}
+
+.bookingDetails table tr td{
+
+	color:#323232;
+
+	font-size:12px;
+
+	padding:5px 0;
+
+	}
+
+.bookingDetails table tr td label{
+
+	color:#323232;
+
+	font-size:13px;
+
+	font-weight:bold;
+
+	}
+
+.bookingDetails table.ticketDetails{
+
+	margin-top:10px;
+
+	}
+
+.bookingDetails table.ticketDetails tr th{
+
+	color:#fff;
+
+	font-weight:bold;
+
+	font-size:13px;
+
+	padding:5px 10px;
+
+	}
+
+.bookingDetails table.ticketDetails tr.head{
+
+	background-color:#232323;
+
+	}
+
+.bookingDetails table.ticketDetails tr td{
+
+	color:#323232;
+
+	font-size:12px;
+
+	padding:5px 0;
+
+	}
+
+.payment_options{
+
+	margin-left:15px;
+
+	font-size:12px;
+
+	color:#323232;
+
+	}
+
+.payment_options input{
+
+	vertical-align:middle;
+
+	margin-right:10px;
+
+	}
+
+.payment_options h5{
+
+	color:#323232;
+
+	font-size:14px;
+
+	margin:10px 0;
+
+	}
+
+.payment_options .pay_buttons{
+
+	text-align:right;
+
+	margin-right:40px;
+
+	}
+
+.payment_options .pay_buttons input{
+
+	background-color:#232323;
+
+	padding:5px 8px;
+
+	border:none;
+
+	color:#fff;
+
+	font-weight:bold;
+
+	cursor:pointer;
+
+	margin-bottom:25px;
+
+	}
+
+.userDetails table{
+
+	margin-left:15px;
+
+	margin-bottom:10px;
+
+	}
+
+.userDetails table tr td {
+
+	color: #323232;
+
+    font-size: 12px;
+
+    padding: 5px 0;
+
+	}
+
+.userDetails table tr td label{
+
+	    color: #323232;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+	}
+
+/*Simple Table - Can use for all tables*/
+
+.simple_table {
+
+	margin:10px 0 10px 15px;
+
+	}
+
+.simple_table tr th{
+
+	color: #323232;
+
+    font-family: "Myriad Pro";
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    padding: 3px 10px;
+
+    text-align: center;
+
+	border:1px solid #999;
+
+	}
+
+.simple_table tr td{
+
+	    color: #323232;
+
+    font-size: 12px;
+
+    padding: 3px 25px;
+
+	border:1px solid #999;
+
+	}
+
+/*Offers Page*/
+
+.offer_wrapper {
+
+	background-color:#fff;
+
+	border: 1px solid #E9E8E8;
+
+	margin-top:10px;
+
+	padding-bottom:15px;
+
+	}
+
+.offer_wrapper h3{
+
+	 background: url("../images/offers_bg.jpg") no-repeat scroll left top transparent;
+
+    color: #FFFFFF;
+
+    display: block;
+
+    font-family: "Myriad Pro";
+
+    font-size: 20px;
+
+    font-weight: normal;
+
+    height: 37px;
+
+    margin-bottom: 10px;
+
+    margin-top: 0;
+
+    padding-left: 18px;
+
+    padding-top: 4px;
+
+	}
+
+.offer_wrapper .offer_image img{
+
+	margin-left:15px;
+
+	border:10px solid #3a3a3a;
+
+	}
+
+.offer_wrapper .offer_image{
+
+	margin-bottom:15px;
+
+	}
+
+.offer_wrapper .description {
+
+	min-height:50px;
+
+	}
+
+.offer_wrapper .read_more{
+
+	text-align:right;
+
+	margin-right:20px;
+
+	}
+
+.offer_wrapper .read_more a{
+
+	background-color: #232323;
+
+    color: #FFFFFF;
+
+    font-family: "Myriad Pro";
+
+    font-size: 13px;
+
+    padding: 4px 10px;
+
+    text-decoration: none;
+
+	} 
+
+.offer_wrapper .read_more a:hover{
+
+	background-color: #6B1B6D ;
+
+	}
+
+.offer_content_wrapper h2{
+
+	height:38px !important;
+
+	line-height:30px !important;
+
+	margin-bottom:0px !important;
+
+	}
+
+.offer_content{
+
+	padding:15px;
+
+	}
+
+.offer_content p{
+
+padding:0px 0px !important;
+
+text-align:justify; 
+
+	}
+
+
+
+#interview_text
+
+{
+
+color: #323232;
+
+font-size: 12px;
+
+font-weight: normal;
+
+text-align:justify;   
+
+}
+
+
+
+#interview_title
+
+{
+
+
+
+text-decoration: none;
+
+margin-top: 10px;
+
+margin-bottom: 10px;
+
+}
+
+
+
+#interview_title a{
+
+    text-decoration: none;
+
+	color: #323232;
+
+font-family: "Myriad Pro";
+
+font-size: 16px;
+
+font-weight: bold;
+
+}
+
+
+
+/*Advertising Page*/
+
+.advertise_wrapper{
+
+	margin-top:15px;
+
+	}
+
+.advertise_left, .advertise_right{
+
+	width:464px !important;
+
+
+
+	}
+
+.advertise_wrapper h3{
+
+	background: url("../images/theater_headder.jpg") no-repeat scroll left top transparent;
+
+    color: #FFFFFF;
+
+    display: block;
+
+    font-family: "Myriad Pro";
+
+    font-size: 20px;
+
+    font-weight: normal;
+
+    height: 32px;
+
+/*    margin-bottom: 10px;*/
+
+    margin-top: 0;
+
+    padding-left: 18px;
+
+    padding-top: 4px;
+
+	}
+
+.advertise_wrapper .details_wrapper{
+
+	border: 1px solid #E9E8E8;
+
+	border-top:none;
+
+	padding:10px 20px ;
+
+	
+
+}
+
+.advertise_wrapper .details_wrapper ul{
+
+	margin-left:50px;
+
+	}
+
+.advertise_wrapper .details_wrapper blockquote{
+
+	margin-left:40px;
+
+		color: #323232;
+
+    font-size: 12px;
+
+	}
+
+.advertise_wrapper .details_wrapper ul li{
+
+	list-style:disc;
+
+	color: #323232;
+
+    font-size: 12px;
+
+	
+
+	}
+
+/*Contact Us Page*/
+
+	
+
+.contact_form_area{
+
+	padding:15px;
+
+	}	
+
+.contact_form_area tr td label{
+
+	color: #323232;
+
+    font-size: 12px;
+
+	}	
+
+.contact_form_area tr td input{
+
+	height:25px;
+
+	background-color:#eeeeee;
+
+	margin-bottom:10px;
+
+	border:none;
+
+	font-size:12px;
+
+	color:#323232;
+
+	}
+
+.contact_form_area tr td textarea{
+
+	width:415px;
+
+	height:175px;
+
+	font-size:12px;
+
+	color:#323232;
+
+	background-color:#eeeeee;
+
+	border:none;
+
+	}	
+
+.contact_form_area tr td .button_right{
+
+	float:right;
+
+	margin-top:15px;
+
+	}
+
+.contact_form_area tr td .button_right input{	
+
+	background-color:#232323;
+
+	color:#fff;
+
+	font-size:12px;
+
+	font-weight:bold;
+
+	height:30px;
+
+	cursor:pointer;	
+
+	}
+
+.contact_form_area tr td .button_right input:hover{
+
+	background-color: #6B1B6D;
+
+	}
+
+.contact_form_area tr td span{
+
+	font-size:12px;
+
+	color:#F00;
+
+	}
+
+	
+
+/* User DashBoard */	
+
+	
+
+	
+
+#dash_table
+
+{
+
+    width: 90%;
+
+    margin-left: 45px;    
+
+    
+
+}	
+
+	
+
+#dash_table tr td#edit a 
+
+{
+
+    background-image:url(../images/edit_button.jpg);
+
+    background-repeat:no-repeat;
+
+    padding-left:184px;
+
+    padding-bottom:50px;
+
+}	
+
+	
+
+#dash_table tr td#edit a:hover 
+
+{
+
+    background-image:url(../images/edit_button_clicked.jpg);
+
+    background-repeat:no-repeat;
+
+    padding-left:184px;
+
+    padding-bottom:50px;
+
+}	
+
+	
+
+	
+
+#dash_table tr td#booking a 
+
+{
+
+    background-image:url(../images/booking_button.jpg);
+
+    background-repeat:no-repeat;
+
+    padding-left:280px;
+
+    padding-bottom:50px;
+
+}	
+
+	
+
+#dash_table tr td#booking a:hover 
+
+{
+
+    background-image:url(../images/booking_button_clicked.jpg);
+
+    background-repeat:no-repeat;
+
+    padding-left:280px;
+
+    padding-bottom:50px;
+
+}	
+
+
+
+
+
+/*Contact Us Module	*/
+
+
+
+.moduletable_contact_us h3{
+
+	background-image: url("../images/inner_pages_header_bg.jpg");
+
+    background-position: right center;
+
+    background-repeat: no-repeat;
+
+    height: 48px;
+
+    line-height: 48px;
+
+    margin-bottom: 15px;
+
+	color: #FFFFFF;
+
+    font-family: "Myriad Pro";
+
+    font-size: 26px;
+
+    font-weight: normal;
+
+    padding-left: 18px;
+
+    padding-top: 0;
+
+    text-decoration: none;
+
+	}	
+
+.moduletable_contact_us p.contact_title{
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	font-size:12px;
+
+	color:#323232;
+
+	font-weight:bold;
+
+	text-transform:uppercase;
+
+	margin-bottom:15px;
+
+	}
+
+.moduletable_contact_us p{
+
+	font-size:12px;
+
+	color:#323232;
+
+	padding-bottom:5px;
+
+	}
+
+.moduletable_contact_us p.contact_name{
+
+	margin-bottom:10px;
+
+	}
+
+.moduletable_contact_us p a{
+
+	color:#323232;
+
+	text-decoration:none;
+
+	}	
+
+.moduletable_contact_us p a:hover{
+
+	text-decoration:underline;
+
+	}
+
+.moduletable_contact_us .contact_item{
+
+	padding:8px;
+
+	padding-bottom:25px;
+
+	border-bottom:1px solid #e9e8e8;
+
+	}
+
+.moduletable_contact_us{
+
+	border:1px solid #e9e8e8;
+
+	border-top:none;
+
+	background-color:#fff;
+
+	}	
+
+/*Additional*/
+
+#inner_page_full_width .item-page h1, #inner_page_left_col .item-page h1{
+
+	display:none;
+
+	}	
+
+	
+
+p.double_indent{
+
+	margin-top:10px;
+
+	font-weight:bold;
+
+	color:#4F0068 !important;
+
+	}	
+
+ul.page_bullet {
+
+	margin-left:50px;
+
+	margin-top:10px;
+
+	}
+
+ul.page_bullet li{
+
+	color: #323232;
+
+    font-size: 12px;
+
+	list-style:disc outside;
+
+	}
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+/*Clearfix And IE 6/7 Global fix*/
+
+
+
+* html input {
+
+	vertical-align: middle;
+
+	}
+
+.clearfix:after {
+
+	content: ".";
+
+	display: block;
+
+	clear: both;
+
+	visibility: hidden;
+
+	line-height: 0;
+
+	height: 0;
+
+}
+
+.clearfix {
+
+	display: inline-block;
+
+}
+
+html[xmlns] .clearfix {
+
+	display: block;
+
+}
+
+* html .clearfix {
+
+	height: 1%;
+
+}
+
+.moduletable_keels {
+margin-top:60px;
+margin-bottom:15px;
+	
+}
+
+.moduletable_keelshome {
+margin-bottom:15px;
+}
+
+.fb_iframe_widget iframe{
+	position: relative !important;
+	display : table;
+	margin-top: 6px;
+}
+/*
+.moduletable_fbinner {
+   margin-top: 60px;
+} */
